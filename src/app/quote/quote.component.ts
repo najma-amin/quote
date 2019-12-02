@@ -9,12 +9,12 @@ import {Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quote:Quote[] = [
-    new Quote (1, 'posted on', 'Programs must be written for people to read, and only incidentally for machines to execute. ',new Date(2012,3,14)),
-    new Quote(2,'posted on','The fool speaks, the wise man listens',new Date(2017,3,14)),
-    new Quote(3,'posted on','For every minute you are angry you lose sixty seconds of happiness ',new Date(2016,3,14)),
-    new Quote(4,'posted on','Wisdom does not come overnight.',new Date(2018,3,14)),
-    new Quote(5,'posted on','I belong to everybody and I belong to nobody',new Date(2019,3,14)),
-    new Quote(6,'posted on','always stay',new Date(2013,3,14)),
+    new Quote (1, 'Coder', 'Programs must be written for people to read, and only incidentally for machines to execute. ',new Date(2012,3,14)),
+    new Quote(2,'unknown','The fool speaks, the wise man listens',new Date(2017,3,14)),
+    new Quote(3,'k.Brown','For every minute you are angry you lose sixty seconds of happiness ',new Date(2016,3,14)),
+    new Quote(4,'Mugabe','Wisdom does not come overnight.',new Date(2018,3,14)),
+    new Quote(5,'Lily','I belong to everybody and I belong to nobody',new Date(2019,3,14)),
+    new Quote(6,'najma','always stay happy',new Date(2013,3,14)),
   ];
   toggleDetails(index){
     this.quote[index].showDescription = !this.quote[index].showDescription;
