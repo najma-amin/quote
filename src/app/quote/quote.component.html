@@ -1,4 +1,10 @@
-<h1>Day quotes</h1>
-    
-<app-detail></app-detail>
-<app-form></app-form>
+<h1>My Quotes</h1>
+<hr>
+<ul>
+  <div *ngFor='let quote of quote;let i = index'>
+    <li >{{quote.name}} due on {{quote.completeDate|date|uppercase}}</li> 
+    <button (click)='toggleDetails(i)'>Toggle Details</button>
+    <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete) = 'completeQuote($event,i)'></app-quote-detail>
+  </div>
+</ul>
+<p *ngIf='quote.length > 5'>You have too many quotes</p>
