@@ -2,7 +2,7 @@
 ## NAJMA
 Description
 
-De Quotes is a single landing application, that enables users to see posted quotes as well as post their own quotes.
+Best  Quotes is a single landing application, that enables users to see posted quotes as well as post their own quotes.
 Technology Used
 
     HTML 5:
@@ -19,7 +19,7 @@ Technology Used
 
     Javascript:
 
-        For a more interactive landing page.
+        For a business logic.
 
     Angular:
 
