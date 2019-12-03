@@ -1,5 +1,5 @@
-# Best Quotes
-## NAJMA
+## Best Quotes
+By  Najma Amin
 Description
 
 Best  Quotes is a single landing application, that enables users to see posted quotes as well as post their own quotes.
