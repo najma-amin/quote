@@ -4,9 +4,9 @@ body{
     background-image: url(assets/cutes.jpeg)
 }
 H1{
-    font-style: italic;
+    font-family: 'Pacifico', cursive;
 }
 H2{
-    font-style: italic;
-    caret-color: yellow
+    font-family: 'Pacifico', cursive;
+    
 }
